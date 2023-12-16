@@ -1,7 +1,7 @@
 <?php
 namespace classes\enums;
 
-enum bodyTypesEnum: string {
+enum BodyTypesEnum: string {
     case Head = 'Голова';
     case LeftHand = 'Левая рука';
     case RightHand = 'Правая Рука';

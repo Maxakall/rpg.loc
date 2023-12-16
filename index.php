@@ -4,7 +4,7 @@ declare(strict_types=1);
 use classes\Body;
 use classes\Effect;
 use classes\Effects;
-use classes\enums\bodyTypesEnum;
+use classes\enums\BodyTypesEnum;
 use classes\BodyType;
 use classes\enums\EffectTypesEnum;
 use classes\Race;
