@@ -36,9 +36,10 @@ class NoItem extends EquipmentAbstract
         // TODO: Implement setLock() method.
     }
 
-    public function getLocking():array
+    public function getLocking(): array
     {
         // TODO: Implement setUnlock() method.
+        return [];
     }
 
     function setEffects(?Effects $effects): void
