@@ -53,6 +53,7 @@ class Weapon extends EquipmentAbstract
     public function getLocking(): array
     {
         // TODO: Implement setUnlock() method.
+        return [];
     }
 
     public function setEffects(?Effects $effects): void
