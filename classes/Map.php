@@ -40,6 +40,7 @@ class Map
         $this->generateMountain(-1, 0, 4, 6, $this->generateMountain($hills, 0, 7, 13, $this->generateMountain($peaks, 0)));
         $this->makeMapSmooth();
         $this->makeRiverSmooth($this->generateRiver());
+        $this->makeRiverSmooth($this->generateRiver());
         return $this->map;
     }
 
