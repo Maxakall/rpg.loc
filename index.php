@@ -17,8 +17,6 @@ use classes\enums\activationEventEnum;
 require_once dirname(__DIR__).'/rpg.loc/vendor/autoload.php';
 
 //TODO: Эффекты, проклятия, благославления, влияние окружения
-// подключить git
-
 
 
 //require_once('classes\body_types.php');
@@ -211,3 +209,10 @@ body {
 
 </body>
 </html>
+
+{"requestId":"290c74fb-71a8-4ad0-8ea8-176a54754f10",
+"dataSets":["service"],
+"status":"ERROR",
+"statusMessage":"Произошла ошибка",
+"inDeltaFlag":true,
+"errors":[{"dataSet":"service","errorType":"PARCING","message":"Неверно указан тип поля price: DOUBLE. Ожидается: FLOAT"},{"dataSet":"service","errorType":"INSERT","message":"Некорректная avro-схема"}]}
