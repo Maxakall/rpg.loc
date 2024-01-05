@@ -70,4 +70,4 @@ $test = new BodyType(BodyTypesEnum::Head);
 
  */
 
-require_once dirname(__DIR__).'/rpg.loc/draw_map.php';
+//require_once dirname(__DIR__).'/rpg.loc/draw_map.php';
